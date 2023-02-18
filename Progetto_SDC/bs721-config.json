@@ -6,7 +6,7 @@
     "infura": "https://sepolia.infura.io/v3/8e0846d1608f42138049acbb5fbc979e",
     "contract_owner": "0xe6df9c7927B3689429465eAaE2FDebe360509FD3",
     "contractAddress": "0xA41494e3e5BC7e88112fA811854787885667373A",
-    "contract_owner_pk": "23ff610624a0f03019934050ec5da19934c6f27dfb46e766b1349c0a837c1047"
+    "contract_owner_pk": "************"
   },
   "mainnet_extended": {
     "network_name": "mainnet",
