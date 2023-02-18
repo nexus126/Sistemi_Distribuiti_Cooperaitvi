@@ -8,3 +8,4 @@ Le principali tematiche affrontate durante il corso sono state:
 - sistemi distribuiti
 - blockchain
 - sistemi basati su blockchain (con gli esempi pratici largamente trattati di Bitcoin ed Ethereum)
+Infine è stato assegnata allo studente la realizzazione di uno Smart Contract Ethereum che potesse essere eseguito nella rete di test 'Sepolia'.
