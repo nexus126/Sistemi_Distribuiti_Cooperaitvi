@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title> NFTismo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">	 -->
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="top-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+						<div id="fh5co-logo" style="color:black;font-size:40px;font-weight: bolder;"><a href="index.html" style="text-decoration: none;color:black">Art is a lie but, NFTs make it true<span>.</span></a></div>
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul style="color:black;font-size: 20px;">
+							<li class="active"><a href="index.html" style="text-decoration: none;">Home</a></li>
+							<li><a href="Galleria.html" style="text-decoration: none;">Galleria</a></li>
+							<li><a href="transferNFT.html" style="text-decoration: none;">Trasferisci il tuo NFT</a></li>
+                            <li><a href="createNFT.html" style="text-decoration: none;">Crea il tuo NFT</a></li>
+                        </ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</nav>
+	<header style="margin-top: 100px;">
+		<h1></i> Crea il tuo NFT</h1>
+		<div>
+			<form action="/createNFT.html" method="POST">
+				<fieldset>
+					<label>inserisci il tuo indirizzo(la tua chiave pubblica)</label>
+					<input type ="text" name="addressFrom" required>
+					<br><br>
+					<label>inserisci il tokenID(un numero arbitrario) dell'NFT che vuoi creare</label>
+					<input type ="number" name="tokenID" required>
+					<br><br>
+					<label>inserisci il tokenURI dell'NFT che vuoi creare</label>
+					<input type="text" name="tokenURI" required>
+					<br><br>
+					<button type ="annulla">Annulla</button>
+					<button type ="transfer">Crea</button>
+				</fieldset>
+			  </form>
+		</div>
+	</header>
+		</div>
+
+		</div>
+	</footer>
+	</div>
+	</body>
+</html>
