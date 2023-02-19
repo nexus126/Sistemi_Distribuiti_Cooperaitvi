@@ -1,0 +1,27 @@
+{
+  "name": "721-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "APACHE",
+  "engines": {
+    "node": "11.6.x",
+    "npm": "6.5.x"
+  },
+  "devDependencies": {
+    "truffle": "^5.0.35"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.18",
+    "n": "^9.0.1",
+    "openzeppelin-solidity": "^2.2.0",
+    "sexy-require": "^1.1.2"
+  }
+}
