@@ -1,5 +1,5 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const mnemonic = "23ff610624a0f03019934050ec5da19934c6f27dfb46e766b1349c0a837c1047";
+const mnemonic = "**privateKey_of_Contract's_creator**";
 /* Chiave pubblica corrispondente: 0xe6df9c7927B3689429465eAaE2FDebe360509FD3*/
 
 module.exports = {
