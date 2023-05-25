@@ -21,7 +21,7 @@ Dettagli Implementativi :
 - Lo Smart Contract è stato creato sulla rete di test Sepolia facente parte dell'ambiente Ethereum,ma è perfettamente funzionante anche su Mainnet(che ha evidentemente gasPrice differente) modificando il file truffle-config.js.
 - Lo standard degli NFT considerato è ERC721.
 - Tra le librerie più importanti utilizzate ci sono truffle,openzeppelin,web3(per la parte dello Smart Contract) e express per la parte backend della pagina web.
-- L'insieme delle richieste effettuate dagli utenti e l'insieme degli NFT creati sono memorizzati all'interno di file json che vengono letti periodicamente dal gestore del servizio.
+- L'insieme delle richieste effettuate dagli utenti e l'insieme degli NFT creati sono memorizzati all'interno di files json che vengono letti periodicamente dal gestore del servizio.
 
 Limitazioni e Sviluppi Futuri:
 
